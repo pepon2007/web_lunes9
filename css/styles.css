@@ -1,0 +1,225 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+h1{    /*titulo */
+
+    color: gold; /*propiedad y valor a cambiar*/
+    font-size: 67px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    
+}
+p{ /* parrafo 1*/
+    color: black;
+    font-size: 24px;
+    font-style: oblique;
+}
+.color{ /* class de parrafo 2*/
+    color: black;
+}
+
+a{ /* links */
+    text-decoration: none;
+    color: blue;
+}
+h2{ /*subtitulos*/
+    color: rgb(45, 67,80);
+}
+.color2{ /*titulo card */
+    color: black;
+    font-size: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+.card{ /* editar imagen */
+    max-width: 300px;
+    background-color: antiquewhite;
+    border: 3px solid;
+    padding:   60px;
+    text-align: center;
+
+    border-radius: 30px;
+    
+    
+}
+
+.card img{
+    max-width: 100%;
+}
+
+
+/*contenedor limite*/
+.contenedor_limite{
+
+    background-color: blueviolet;
+    max-width: 700px;
+    text-align: center;
+    border: 3px;
+    margin: 0 auto
+
+
+}
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: blueviolet;
+}
+
+.color3{
+    color: gold;
+    font-size: 47px;
+    text-align: left;
+}
+
+.color4{
+    font-size: 25px;
+    text-align:left;
+}
+
+/*header 2*/
+.header_2{
+    font-size: 25px;
+    text-align: left;
+}
+
+.titulo_nosyprod{
+    color: gold;
+    font-size: 67px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+
+/*sectios*/
+section{
+    margin: 30px;
+}
+.contenedor_limite_2{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    max-width: 1200px;
+    
+   
+    
+    border: 1px solid;
+
+}
+
+.padre{
+    background-color: rgb(10, 3, 0);
+    justify-content: space-between;
+   
+  padding: 10px;
+  flex-wrap: wrap;
+    display: flex;
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+    header{
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    
+
+    
+    
+    
+}
+/*grilla********/
+.parent {
+    display: grid;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 5px;
+
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+    
+    .div1 {
+         grid-area: 1 / 1 / 2 / 3;
+
+         }
+
+.div1 img{
+    width: 100%;
+}
+
+
+    .div2 {
+         grid-area: 2 / 1 / 3 / 2;
+         }
+         .div2 img{
+            width: 100%;
+         }
+ 
+ 
+
+    .div3 {
+         grid-area: 2 / 2 / 3 / 3;
+         }
+         .div3 img{
+            width: 100%;
+         }
+         
+         
+.div1 img{
+ width: 100%;
+} 
+
+.div2 img{
+    width: 100%;
+ }
+
+ .div3 img{
+    width: 100%;
+ } 
+
+
+ .carousel{
+    max-width: 500px;
+    margin: 0 auto;
+ }
+
+
+
+
+
+
+ .collapse :hover{
+    color: blue;
+
+ }
