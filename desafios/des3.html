@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nombreProducto = "zapatillas air jordan 1";
+        let preciounitario = 110;
+        let cantidaddeseada = prompt(`Ingrese la cantidad de ${nombreProducto}($${preciounitario} C/U) que quiere comprar: `);
+
+        let costototalsindescuentos = cantidaddeseada * preciounitario;
+        
+    if(cantidaddeseada >= 5 ) {
+        let newcosto = costototalsindescuentos * 0.9;
+        costototalsindescuentos *= 0.9
+        console.log(newcosto)
+        console.log(costototalsindescuentos)
+   
+    }
+
+    alert("su copra es de $" + costototalsindescuentos + "se aplico el 10%")
+
+
+
+
+    </script>
+    
+</body>
+</html>
